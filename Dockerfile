@@ -14,5 +14,6 @@ RUN apt-get update \
       sqlmap \
       wordlists \
       wpscan \
+      xxd \
     && gunzip /usr/share/wordlists/rockyou.txt.gz \
     && rm -rf /var/lib/apt/lists/*
