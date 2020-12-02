@@ -14,6 +14,7 @@ RUN apt-get update \
       seclists \
       sqlmap \
       vim \
+      webshells \
       wordlists \
       wpscan \
       xxd \
