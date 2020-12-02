@@ -8,10 +8,13 @@ RUN apt-get update \
       iproute2 \
       iputils-ping \
       metasploit-framework \
+      netcat \
       python3 \
       python3-pip \
       seclists \
       sqlmap \
+      vim \
+      webshells \
       wordlists \
       wpscan \
       xxd \
