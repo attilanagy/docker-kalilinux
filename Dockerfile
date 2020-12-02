@@ -13,6 +13,7 @@ RUN apt-get update \
       python3-pip \
       seclists \
       sqlmap \
+      vim \
       wordlists \
       wpscan \
       xxd \
