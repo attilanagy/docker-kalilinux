@@ -16,6 +16,7 @@ RUN apt-get update \
       vim \
       webshells \
       wordlists \
+      wfuzz \
       wpscan \
       xxd \
     && gunzip /usr/share/wordlists/rockyou.txt.gz \
