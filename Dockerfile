@@ -7,6 +7,7 @@ RUN apt-get update \
       gobuster \
       iproute2 \
       iputils-ping \
+      man \
       metasploit-framework \
       netcat \
       python3 \
