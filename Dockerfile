@@ -7,12 +7,15 @@ RUN apt-get update \
       gobuster \
       iproute2 \
       iputils-ping \
+      man \
       metasploit-framework \
       netcat \
+      ncftp \
       python3 \
       python3-pip \
       seclists \
       sqlmap \
+      steghide \
       vim \
       webshells \
       wordlists \
