@@ -10,6 +10,7 @@ RUN apt-get update \
       man \
       metasploit-framework \
       netcat \
+      ncftp \
       python3 \
       python3-pip \
       seclists \
