@@ -6,6 +6,7 @@ It's a docker image based on Kali Linux which contains the following tools.
 * [Metasploit framework][metasploit]
 * [Python 3][python]
 * [sqlmap][sqlmap]
+* [Steghide][steghide]
 * [Wfuzz - The Web Fuzzer][wfuzz]
 * [WPScan WordPress Security Scanner][wpscan]
 * Various wordlists (including `rockyout.txt`)
@@ -28,5 +29,6 @@ docker run -it --rm attilanagynet/kalilinux /bin/bash
 [metasploit]: https://www.metasploit.com/
 [python]:     https://www.python.org/
 [sqlmap]:     http://sqlmap.org/
+[steghide]:   http://steghide.sourceforge.net/
 [wfuzz]:      https://github.com/xmendez/wfuzz
 [wpscan]:     https://wpscan.com/wordpress-security-scanner

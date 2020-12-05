@@ -14,6 +14,7 @@ RUN apt-get update \
       python3-pip \
       seclists \
       sqlmap \
+      steghide \
       vim \
       webshells \
       wordlists \
