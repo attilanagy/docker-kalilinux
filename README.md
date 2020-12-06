@@ -2,6 +2,7 @@
 
 It's a docker image based on Kali Linux which contains the following tools.
 
+* [fcrackzip][fcrackzip]
 * [gobuster][gobuster]
 * [Metasploit framework][metasploit]
 * [Python 3][python]
@@ -25,6 +26,7 @@ Start the container
 docker run -it --rm attilanagynet/kalilinux /bin/bash
 ```
 
+[fcrackzip]:  https://github.com/attilanagy/docker-kalilinux
 [gobuster]:   https://github.com/OJ/gobuster
 [metasploit]: https://www.metasploit.com/
 [python]:     https://www.python.org/
