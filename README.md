@@ -26,7 +26,7 @@ Start the container
 docker run -it --rm attilanagynet/kalilinux /bin/bash
 ```
 
-[fcrackzip]:  https://github.com/attilanagy/docker-kalilinux
+[fcrackzip]:  https://github.com/hyc/fcrackzip
 [gobuster]:   https://github.com/OJ/gobuster
 [metasploit]: https://www.metasploit.com/
 [python]:     https://www.python.org/
