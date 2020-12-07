@@ -2,6 +2,7 @@
 
 It's a docker image based on Kali Linux which contains the following tools.
 
+* [Exploit Database][exploitdb]
 * [fcrackzip][fcrackzip]
 * [gobuster][gobuster]
 * [Metasploit framework][metasploit]
@@ -26,6 +27,7 @@ Start the container
 docker run -it --rm attilanagynet/kalilinux /bin/bash
 ```
 
+[exploitdb]:  https://www.exploit-db.com/
 [fcrackzip]:  https://github.com/hyc/fcrackzip
 [gobuster]:   https://github.com/OJ/gobuster
 [metasploit]: https://www.metasploit.com/
