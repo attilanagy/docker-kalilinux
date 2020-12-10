@@ -2,6 +2,7 @@
 
 It's a docker image based on Kali Linux which contains the following tools.
 
+* [enum4linux][enum4linux]
 * [Exploit Database][exploitdb]
 * [fcrackzip][fcrackzip]
 * [gobuster][gobuster]
@@ -27,6 +28,7 @@ Start the container
 docker run -it --rm attilanagynet/kalilinux /bin/bash
 ```
 
+[enum4linux]: http://labs.portcullis.co.uk/application/enum4linux/
 [exploitdb]:  https://www.exploit-db.com/
 [fcrackzip]:  https://github.com/hyc/fcrackzip
 [gobuster]:   https://github.com/OJ/gobuster
