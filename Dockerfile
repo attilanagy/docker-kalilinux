@@ -7,13 +7,13 @@ RUN apt-get update \
       enum4linux \
       exploitdb \
       fcrackzip \
+      ftp \
       gobuster \
       iproute2 \
       iputils-ping \
       man \
       metasploit-framework \
       netcat \
-      ncftp \
       python3 \
       python3-pip \
       seclists \
