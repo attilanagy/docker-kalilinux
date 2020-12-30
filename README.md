@@ -2,16 +2,16 @@
 
 It's a docker image based on Kali Linux which contains the following tools.
 
-* [enum4linux][enum4linux]
-* [Exploit Database][exploitdb]
-* [fcrackzip][fcrackzip]
-* [gobuster][gobuster]
-* [Metasploit framework][metasploit]
-* [Python 3][python]
-* [sqlmap][sqlmap]
-* [Steghide][steghide]
-* [Wfuzz - The Web Fuzzer][wfuzz]
-* [WPScan WordPress Security Scanner][wpscan]
+* [enum4linux](http://labs.portcullis.co.uk/application/enum4linux/)
+* [Exploit Database](https://www.exploit-db.com/)
+* [fcrackzip](https://github.com/hyc/fcrackzip)
+* [gobuster](https://github.com/OJ/gobuster)
+* [Metasploit framework](https://www.metasploit.com/)
+* [Python 3](https://www.python.org/)
+* [sqlmap](http://sqlmap.org/)
+* [Steghide](http://steghide.sourceforge.net/)
+* [Wfuzz](https://github.com/xmendez/wfuzz)
+* [WordPress Security Scanner](https://wpscan.com/wordpress-security-scanner)
 * Various wordlists (including `rockyout.txt`)
 
 ## Usage
@@ -27,14 +27,3 @@ Start the container
 ```
 docker run -it --rm attilanagynet/kalilinux /bin/bash
 ```
-
-[enum4linux]: http://labs.portcullis.co.uk/application/enum4linux/
-[exploitdb]:  https://www.exploit-db.com/
-[fcrackzip]:  https://github.com/hyc/fcrackzip
-[gobuster]:   https://github.com/OJ/gobuster
-[metasploit]: https://www.metasploit.com/
-[python]:     https://www.python.org/
-[sqlmap]:     http://sqlmap.org/
-[steghide]:   http://steghide.sourceforge.net/
-[wfuzz]:      https://github.com/xmendez/wfuzz
-[wpscan]:     https://wpscan.com/wordpress-security-scanner
