@@ -27,4 +27,5 @@ RUN apt-get update \
       wpscan \
       xxd \
     && gunzip /usr/share/wordlists/rockyou.txt.gz \
+    && git clone https://github.com/internetwache/GitTools.git /opt/GitTools \
     && rm -rf /var/lib/apt/lists/*

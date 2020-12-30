@@ -5,6 +5,7 @@ It's a docker image based on Kali Linux which contains the following tools.
 * [enum4linux](http://labs.portcullis.co.uk/application/enum4linux/)
 * [Exploit Database](https://www.exploit-db.com/)
 * [fcrackzip](https://github.com/hyc/fcrackzip)
+* [GitTools](https://github.com/internetwache/GitTools)
 * [gobuster](https://github.com/OJ/gobuster)
 * [Metasploit framework](https://www.metasploit.com/)
 * [Python 3](https://www.python.org/)
