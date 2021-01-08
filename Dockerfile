@@ -10,6 +10,7 @@ RUN apt-get update \
       fcrackzip \
       ftp \
       gobuster \
+      hash-identifier \
       iproute2 \
       iputils-ping \
       man \

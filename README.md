@@ -7,6 +7,7 @@ It's a docker image based on Kali Linux which contains the following tools.
 * [fcrackzip](https://github.com/hyc/fcrackzip)
 * [GitTools](https://github.com/internetwache/GitTools)
 * [gobuster](https://github.com/OJ/gobuster)
+* [hash-identifier](https://tools.kali.org/password-attacks/hash-identifier)
 * [Metasploit framework](https://www.metasploit.com/)
 * [Python 3](https://www.python.org/)
 * [sqlmap](http://sqlmap.org/)
