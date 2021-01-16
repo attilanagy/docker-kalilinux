@@ -20,6 +20,7 @@ RUN apt-get update \
       python3-pip \
       seclists \
       sqlmap \
+      strace \
       steghide \
       vim \
       webshells \
