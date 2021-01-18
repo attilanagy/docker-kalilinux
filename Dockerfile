@@ -11,6 +11,7 @@ RUN apt-get update \
       ftp \
       gobuster \
       hash-identifier \
+      hydra \
       iproute2 \
       iputils-ping \
       man \
