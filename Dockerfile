@@ -14,6 +14,7 @@ RUN apt-get update \
       hydra \
       iproute2 \
       iputils-ping \
+      ltrace \
       man \
       metasploit-framework \
       netcat \
