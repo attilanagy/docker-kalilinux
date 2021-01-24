@@ -24,6 +24,7 @@ RUN apt-get update \
       sqlmap \
       strace \
       steghide \
+      telnet \
       vim \
       webshells \
       wordlists \
