@@ -33,4 +33,5 @@ RUN apt-get update \
       xxd \
     && gunzip /usr/share/wordlists/rockyou.txt.gz \
     && git clone https://github.com/internetwache/GitTools.git /opt/GitTools \
+    && git clone https://github.com/maurosoria/dirsearch.git /opt/dirsearch \
     && rm -rf /var/lib/apt/lists/*

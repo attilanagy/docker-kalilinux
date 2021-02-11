@@ -2,6 +2,7 @@
 
 It's a docker image based on Kali Linux which contains the following tools.
 
+* [dirsearch](https://github.com/maurosoria/dirsearch)
 * [enum4linux](http://labs.portcullis.co.uk/application/enum4linux/)
 * [Exploit Database](https://www.exploit-db.com/)
 * [fcrackzip](https://github.com/hyc/fcrackzip)
