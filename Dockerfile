@@ -18,6 +18,7 @@ RUN apt-get update \
       man \
       metasploit-framework \
       netcat \
+      python2.7 \
       python3 \
       python3-pip \
       seclists \
@@ -26,6 +27,7 @@ RUN apt-get update \
       steghide \
       telnet \
       vim \
+      virtualenv \
       webshells \
       wordlists \
       wfuzz \
