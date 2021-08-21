@@ -4,7 +4,8 @@ version: 2.1
 workflows:
   build-docker-image-only:
     jobs:
-      - docker/hadolint
+      - docker/hadolint:
+          ignore-rules: "DL3007,DL3008,DL3015"
       - docker/publish:
           registry: docker.io
           image: attilanagynet/kalilinux
