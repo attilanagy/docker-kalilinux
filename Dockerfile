@@ -22,6 +22,7 @@ RUN apt-get update \
       python3 \
       python3-pip \
       seclists \
+      sqlite3 \
       sqlmap \
       strace \
       steghide \
