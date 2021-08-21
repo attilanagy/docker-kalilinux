@@ -10,3 +10,9 @@ workflows:
           image: attilanagynet/kalilinux
           update-description: true
           tag: latest
+          filters:
+            branches:
+              only:
+                - main
+          requires:
+            - docker/hadolint
