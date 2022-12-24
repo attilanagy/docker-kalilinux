@@ -17,7 +17,7 @@ RUN apt-get update \
       ltrace \
       man \
       metasploit-framework \
-      netcat \
+      netcat-traditional \
       python2.7 \
       python3 \
       python3-pip \
