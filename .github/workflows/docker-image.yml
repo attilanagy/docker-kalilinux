@@ -15,4 +15,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag kalilinux:$(date +%s)
+      run: docker build . --file Dockerfile --tag docker.io/attilanagynet/kalilinux:latest
+    - name: Docker Login
+      run: docker login -u attilanagynet -p ${{secrets.DOCKER_PASSWORD}}
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    - name: Push to Registry
+      run: docker push  docker.io/attilanagynet/kalilinux:latest
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
