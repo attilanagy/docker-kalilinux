@@ -4,6 +4,7 @@ LABEL maintainer="attila@attilanagy.net"
 
 RUN apt-get update \
     && apt-get install -y \
+      dirsearch \
       enum4linux \
       exiftool \
       exploitdb \
