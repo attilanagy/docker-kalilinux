@@ -10,6 +10,7 @@ RUN apt-get update \
       exploitdb \
       fcrackzip \
       ftp \
+      ffuf \
       gobuster \
       hash-identifier \
       hydra \
