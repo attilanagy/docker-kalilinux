@@ -9,6 +9,7 @@ RUN apt-get update \
       exiftool \
       exploitdb \
       fcrackzip \
+      file \
       ftp \
       ffuf \
       gobuster \
