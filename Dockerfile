@@ -21,6 +21,7 @@ RUN apt-get update \
       man \
       metasploit-framework \
       netcat-traditional \
+      peass \
       python2.7 \
       python3 \
       python3-pip \
