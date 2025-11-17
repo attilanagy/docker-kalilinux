@@ -25,6 +25,7 @@ RUN apt-get update \
       python2.7 \
       python3 \
       python3-pip \
+      responder \
       seclists \
       sqlite3 \
       sqlmap \
